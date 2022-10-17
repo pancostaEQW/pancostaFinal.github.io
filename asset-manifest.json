@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pancostaFinal.github.io/static/css/main.bee1ad45.css",
+    "main.js": "/pancostaFinal.github.io/static/js/main.7c546a8b.js",
+    "index.html": "/pancostaFinal.github.io/index.html",
+    "main.bee1ad45.css.map": "/pancostaFinal.github.io/static/css/main.bee1ad45.css.map",
+    "main.7c546a8b.js.map": "/pancostaFinal.github.io/static/js/main.7c546a8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bee1ad45.css",
+    "static/js/main.7c546a8b.js"
+  ]
+}
