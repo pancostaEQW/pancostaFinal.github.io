@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,300&display=swap");
+
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.wrapper {
+  margin: 50px;
+}
+
+header .logo {
+  bottom: 20px;
+  font-weight: 700px;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .item {
+  width: 20%;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  background: rgb(250, 227, 227);
+  box-shadow: 3px 3px 3px 3px rgb(197, 197, 197);
+  border-radius: 15px 15px 15px 15px;
+}
+
+main .item.active {
+  background: rgb(223, 223, 171);
+}
+main .add-to-guard:hover,
+main .track:hover {
+  color: rgb(111, 121, 84);
+}
+
+main .item img {
+  width: 100%;
+  height: 450px;
+  border-radius: 5px 5px 0 0;
+  transition: transform 500ms ease;
+  position: relative;
+  padding-bottom: 1px;
+}
+
+main h2,
+main p,
+main b {
+  margin: 25px 20px;
+}
+
+p {
+  position: absolute;
+  bottom: 30px;
+  font-family: "Ubuntu";
+  font-weight: 900;
+  left: 5px;
+  color: #2c2c2c;
+}
+
+h1 {
+  right: 16px;
+  padding: 25px;
+  font-family: "Ubuntu";
+  font-weight: 1000;
+  color: #2c2c2c;
+}
+
+main .item img:hover {
+  transform: scale(1.05);
+}
+
+main .add-to-guard {
+  color: rgb(128, 197, 128);
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+  bottom: 15%;
+}
+
+text {
+  text-decoration: line-through;
+  right: 10px;
+  margin: 20px;
+  top: 15px;
+}
+
+main .track {
+  color: rgb(128, 197, 128);
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 100px;
+  bottom: 15%;
+}
+
+main .heart {
+  bottom: 200px;
+  float: right;
+  left: 45px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  color: green;
+}
+
+main .bass {
+  bottom: 250px;
+  float: right;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+main .see {
+  left: 25%;
+  top: 15px;
+  background-color: rgba(44, 44, 44, 0.74);
+  color: rgb(216, 208, 208);
+  border-radius: 5px 5px 5px 5px;
+  height: 25px;
+  width: 150px;
+  text-align: center;
+}
+
+.loader {
+  margin: auto;
+  padding: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px dashed rgb(25, 41, 41);
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) scale(0.3);
+  }
+  to {
+    transform: rotate(220deg) scale(2);
+  }
+}
+
+b {
+  position: absolute;
+  bottom: 3px;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  left: 190px;
+  line-height: normal;
+  color: rgb(145, 137, 137);
+}
+
+@media (max-width: 1600px) {
+  main { 
+    display: flex;
+    width: 1600px;
+  }
+  main .item {
+    width: 20%;
+  }
+}
